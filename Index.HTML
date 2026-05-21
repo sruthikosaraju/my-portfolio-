@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sruthi's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SECTION 1: Fullscreen Intro Image -->
+  <section class="fullscreen-section">
+    <img src="images/sruthi.png" alt="Sruthi Intro" class="fullscreen-photo" />
+  </section>
+
+  <!-- SECTION 2: Black Summary Section -->
+  <section class="black-section summary-section">
+    <div class="summary-container">
+      <div class="summary-text">
+        <h1>Hello, I'm <span>sruthi kosaraju</span></h1>
+        <p>I am currently pursuing B.Tech in Computer Science and Engineering.</p>
+        <p>I have a strong interest in both technology and creative problem-solving.</p>
+        <p>Alongside my technical skills, I am also passionate about management and business strategies.</p>
+        <p>This portfolio reflects my journey as a learner, blending technical expertise with a growing interest in leadership and innovation.</p>
+      </div>
+      <div class="summary-photo">
+        <img src="images/sruthi.jpg" alt="Second Photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: Education & Projects -->
+  <section class="gray-section page2-container">
+    <div class="info-card">
+      <h2>Education</h2>
+      <hr />
+      <p>B.Tech in Computer Science and Engineering</p>
+      <p>At SRM AP, 2024 – Present</p>
+      <p>Board of Intermediate Education</p>
+      <p>At Vidya College, 2020–2024</p>
+      <p>Indian Certificate of Secondary Education</p>
+      <p>At St. Ann's School, Chirala, 2021–2022</p>
+    </div>
+
+    <div class="info-card">
+      <h2>Projects</h2>
+      <hr />
+      <p><strong>Portfolio Website:</strong> Built with HTML, CSS, to showcase academic background, skills, and projects.</p>
+      <p>The website includes multiple sections such as About me, Education, Skills, Projects, and Contact details.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 4: Skills -->
+  <section class="gray-section skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">Python</div>
+      <div class="skill-item">C-language</div>
+       <div class="skill-item">Data structures</div>
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">CSS</div>
+      <div class="skill-item">java script</div>
+     </div>
+  </section>
+
+  <!-- Force scroll to top on reload -->
+  <script>
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+  </script>
+  <!-- Add to the bottom of index.html, after Skills section -->
+<section class="peach-section contact-section">
+  <div class="section-box">
+    <h2>Interpersonal Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">Leadership</div>
+      <div class="skill-item">Team Collaboration</div>
+      <div class="skill-item">Problem Solving</div>
+      <div class="skill-item">Time Management</div>
+      <div class="skill-item">fluent in English</div>
+      <div class="skill-item">mother tounge- telugu</div>
+    </div>
+  </div>
+
+  <div class="section-box">
+    <h2>Contact Me</h2>
+    <p style="font-size: 1.1rem;">Feel free to reach out through any of the following:</p>
+    <div class="contact-details">
+      <p>Email: <a href="mailto:sruthikosaraju53@gmail.com">sruthikosaraju53@gmail.com</a></p>
+      <p>Phone: +91 9059631159</p>
+      <p>Location: Andhra Pradesh, India</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html> 
+
+
